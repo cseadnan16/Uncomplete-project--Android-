@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/_16sdp">
+    <TextView android:textSize="@dimen/_16sdp" android:textColor="@color/colorMain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Choose Your Plan"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_8sdp" android:weightSum="2">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/sevendays" android:background="@drawable/text_background" android:padding="@dimen/_8sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_4sdp" android:layout_weight="1">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Free"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="7 Days"/>
+            </LinearLayout>
+            <ImageView android:id="@+id/checkseven" android:padding="@dimen/_2sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:src="@drawable/check" android:translationX="@dimen/_22sdp"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/thirtydays" android:background="@drawable/text_background" android:padding="@dimen/_8sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_4sdp" android:layout_weight="1">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="50tk"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="30 Days"/>
+            </LinearLayout>
+            <ImageView android:id="@+id/thirtycheck" android:padding="@dimen/_2sdp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:src="@drawable/check" android:translationX="@dimen/_22sdp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/oneyear" android:background="@drawable/text_background" android:padding="@dimen/_8sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_4sdp" android:layout_weight="1">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="500tk"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1 Year"/>
+            </LinearLayout>
+            <ImageView android:id="@+id/oneyearcheck" android:padding="@dimen/_2sdp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:src="@drawable/check" android:translationX="@dimen/_22sdp"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/lifetime" android:background="@drawable/text_background" android:padding="@dimen/_8sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_4sdp" android:layout_weight="1">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1100tk"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Life time"/>
+            </LinearLayout>
+            <ImageView android:id="@+id/lifetimecheck" android:padding="@dimen/_2sdp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:src="@drawable/check" android:translationX="@dimen/_22sdp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/_12sdp" android:textColor="@color/navColor" android:id="@+id/plantitle" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_16sdp" android:text="Your Selected Plan"/>
+    <TextView android:textSize="@dimen/_12sdp" android:textColor="@color/black" android:id="@+id/plandetails" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_16sdp" android:text=""/>
+    <Button android:textColor="#ffffff" android:id="@+id/confirm" android:background="@drawable/shapeshow" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_16sdp" android:text="Confirm"/>
+</LinearLayout>

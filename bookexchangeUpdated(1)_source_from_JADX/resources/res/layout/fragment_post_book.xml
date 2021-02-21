@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:background="@drawable/touhen" android:padding="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:backgroundTint="#dee7e9"/>
+                <LinearLayout android:orientation="vertical" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:layout_marginTop="2dp">
+                    <EditText android:textSize="15dp" android:textStyle="bold" android:id="@+id/book_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:hint="Book Name" android:inputType="text"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="2">
+                        <TextView android:textColor="@color/colorBlue" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Select Category" android:layout_weight="1"/>
+                        <Spinner android:id="@+id/spenner_catagory" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                    </LinearLayout>
+                    <EditText android:textSize="15sp" android:id="@+id/writer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:hint="Writer" android:inputType="text"/>
+                    <EditText android:textSize="15sp" android:id="@+id/publisher" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:hint="Publisher" android:inputType="text"/>
+                    <EditText android:textSize="15sp" android:id="@+id/discription" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:hint="Discription" android:maxLines="2" android:inputType="text"/>
+                    <TextView android:textColor="@color/colorBlue" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="Select Division &amp; Subdivision"/>
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="2">
+                        <Spinner android:id="@+id/divspinner" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                        <Spinner android:id="@+id/subdivspnr" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                    </LinearLayout>
+                    <EditText android:textSize="15dp" android:textStyle="bold" android:id="@+id/address" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:hint="Address Details" android:inputType="text"/>
+                    <TextView android:textSize="12dp" android:textColor="@color/colorBlue" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_4sdp" android:text="Exchange With"/>
+                    <EditText android:textSize="15dp" android:textStyle="bold" android:gravity="start" android:id="@+id/spenner_roll" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:hint="Books Name" android:maxLines="10" android:lines="8" android:minLines="6" android:inputType="textImeMultiLine"/>
+                    <TextView android:textSize="12dp" android:textColor="#ce9c08" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="OR"/>
+                    <EditText android:textSize="15dp" android:textStyle="bold" android:id="@+id/currency" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:hint="Currency" android:maxLines="1" android:drawableRight="@drawable/tk" android:inputType="number" android:imeOptions="actionDone"/>
+                    <Button android:textSize="15dp" android:layout_gravity="center" android:id="@+id/submit" android:background="@drawable/shapeshow" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Submit"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</FrameLayout>

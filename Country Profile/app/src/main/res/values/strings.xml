@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Country Profile</string>
+    <string name="bangladesh"> Bangladesh </string>
+    <string name="india"> India </string>
+    <string name="pakistan"> Pakistan </string>
+    <string name="text_pak"> Pakistan </string>
+    <string name="text_bd"> Bangladesh </string>
+    <string name="text_ind"> India </string>
+    <string name="bd_history">
+        <p align="center"><b><u> National parliament House\n\n </u></b></p>
+        (Bengali: জাতীয় সংসদ ভবন Jatiyô Sôngsôd Bhôbôn) is
+        the house of the Parliament of Bangladesh, located
+        at Sher-e-Bangla Nagar in the Bangladeshi capital of
+        Dhaka. Designed while the country was still part of
+        a Pakistan by architect Louis Kahn, the complex is
+        one of the largest legislative complexes in the world,
+        comprising 200 acres (800,000 m²).[1]
+        The building was featured prominently in the 2003 film
+        My Architect,
+        detailing the career and familial legacy of its architect,
+        Louis Kahn. Robert McCarter, author of Louis I. Kahn,
+        described the National Parliament of Bangladesh as one
+            of the twentieth century's most significant buildings.</string>
+
+    <string name="ind_history">
+        <p align="center"><b><u> Taj Mahal\n</u></b></p>
+        The Taj Mahal (/ˌtɑːdʒ məˈhɑːl, ˌtɑːʒ-/;[4] lit. Crown of the Palace,
+        [taːdʒ ˈmɛːɦ(ə)l])[5] is an ivory-white marble mausoleum on the south
+        bank of the Yamuna river in the Indian city of Agra. It was commissioned
+        in 1632 by the Mughal emperor Shah Jahan (reigned from 1628 to 1658) to
+        house the tomb of his favourite wife, Mumtaz Mahal; it also houses the
+        tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare
+        (42-acre) complex, which includes a mosque and a guest house, and is set
+        in formal gardens bounded on three sides by a crenellated wall.
+        Construction of the mausoleum was essentially completed in 1643, but
+        work continued on other phases of the project for another 10 years. The
+        Taj Mahal complex is believed to have been completed in its entirety in
+        1653 at a cost estimated at the time to be around 32 million rupees, which
+        of a board of architects led by the court architect to the emperor,
+        Ustad Ahmad Lahauri.
+        The Taj Mahal was designated as a UNESCO World Heritage Site in 1983 for
+        being "the jewel of Muslim art in India and one of the universally admired
+        masterpieces of the world's heritage". It is regarded by many as the best
+        example of Mughal architecture and a symbol of India's rich history.
+        The Taj Mahal attracts 7–8 million visitors a year and in 2007,
+        it was declared a winner of the New7Wonders of the World (2000–2007) initiative.
+    </string>
+
+    <string name="pak_history">
+        <p align="center"><b><u> Quaid-i-Azam University\n </u></b></p>
+        Quaid-I-Azam University Islamabad (Urdu: جامعہ قائداعظم‎; commonly referred to as QAU),
+        founded as University of Islamabad, is a public research university in Islamabad, Pakistan.[3][4]
+        Founded as the University of Islamabad in 1967, it was initially dedicated to the study of
+        postgraduate education but expanded through the 1980s to an interdisciplinary university
+        offering undergraduate and postgraduate education.[2] The university has, as of 2015,
+        grown into the largest varsity in Islamabad with a total enrollment exceeding
+        13,000 students.[2] The university is on a 1700 acres (or 6.9 km²) campus on
+        the foothills of the Margalla.[5]
+        Divided into four faculties and nine affiliated research institutes,
+        QAU is among Pakistan's largest and highest ranked public universities.
+        [6][7] In 2018, it is ranked between 551-560 in the world and top 133 in Asia
+        by the QS World University Rankings[8] while its regional publications ranked
+        QAU among 120 in Asia in 2013.[9] The Times Higher Education World University
+        Rankings ranked QAU between 401-500 globally and top 79 in Asia in its 2020 lists.[10]
+        The university is nationally known for its research, technological advancement,
+        and intellectual interaction with international institutes, including the United Nations,
+        University of Tokyo and the ICTP.[2][11] It is one of the most popular universities in
+        the country and counts several public figures and intellectuals among its current and
+        former faculty, researchers, or alumni since its establishment. They include Maleeha Lodhi,
+        Nasim Zehra, Shamshad Akhtar, Suhail Zubairy, Farzana Aslam, Tasneem Zehra and Salma Zahid.
+        The university is currently led by Professor Muhammad Ali.
+    </string>
+</resources>

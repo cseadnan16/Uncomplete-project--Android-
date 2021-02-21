@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="22sp" android:textColor="@color/colorPrimary" android:id="@+id/logintxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginTop="8dp" android:text="Mobile Verification"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/rl" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="30dp" android:layout_below="@+id/logintxt">
+        <EditText android:textColor="@color/navColor" android:id="@+id/countryCodeET" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+88" android:cursorVisible="false" android:maxLines="1" android:singleLine="true" android:drawableLeft="@drawable/flag"/>
+        <View android:layout_width="5dp" android:layout_height="0dp"/>
+        <com.google.android.material.textfield.TextInputLayout android:textColorHint="@color/navColor" android:id="@+id/til" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText android:textColor="@color/navColor" android:textColorHint="@color/navColor" android:id="@+id/phoneET" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/_22sdp" android:hint="Enter Phone Number" android:cursorVisible="true" android:maxLines="1" android:singleLine="true" android:maxLength="11" android:digits="1234567890" android:inputType="phone" android:imeOptions="actionNext" android:keyboardNavigationCluster="true"/>
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_below="@+id/logintxt">
+        <TextView android:textStyle="bold" android:textColor="@color/black" android:id="@+id/otpTV" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="INSERT OTP"/>
+        <com.mukesh.OtpView android:textColor="@android:color/white" android:id="@+id/otp_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22dp" android:itemBackground="@drawable/otp_background" android:inputType="number" app:itemCount="6" app:lineColor="@color/colorPrimary" app:viewType="1"/>
+    </LinearLayout>
+    <RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="180dp" android:layout_marginBottom="30dp">
+        <TextView android:textColor="@color/navColor" android:id="@+id/cpntv" android:padding="3sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4dp" android:text="Change Phone Number"/>
+        <TextView android:textStyle="bold" android:textColor="@color/black" android:id="@+id/registrar" android:padding="3sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="Try Again" android:layout_below="@+id/cpntv" android:layout_alignEnd="@+id/cpntv"/>
+    </RelativeLayout>
+</RelativeLayout>

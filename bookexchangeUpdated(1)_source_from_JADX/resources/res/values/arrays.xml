@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="barisal">
+        <item>Barguna</item>
+        <item>Barishal</item>
+        <item>Bhola</item>
+        <item>Jhalokati</item>
+        <item>Patuakhali</item>
+        <item>Pirojpur</item>
+    </array>
+    <array name="catagory">
+        <item>Audio</item>
+        <item>Art &amp; Music</item>
+        <item>Autograph</item>
+        <item>Braille</item>
+        <item>Biographies &amp; Memories</item>
+        <item>Business &amp; Investing</item>
+        <item>Cooking</item>
+        <item>Crafts &amp; Hobbies</item>
+        <item>Comics &amp; Graphic</item>
+        <item>Computers &amp; Technology</item>
+        <item>Education &amp; Reference</item>
+        <item>Fiction</item>
+        <item>Horror</item>
+        <item>Humor &amp; Entertainment</item>
+        <item>Health &amp; Fitness</item>
+        <item>Literature</item>
+        <item>Medical</item>
+        <item>Mystery</item>
+        <item>Non-fiction</item>
+        <item>Nobel</item>
+        <item>Poetry</item>
+        <item>Parenting &amp; Relationships</item>
+        <item>Puzzle</item>
+        <item>Religious</item>
+        <item>Romance</item>
+        <item>Story</item>
+        <item>Science Fiction</item>
+        <item>Science &amp; Math</item>
+        <item>Self-Help</item>
+        <item>Suspense</item>
+        <item>Sports</item>
+        <item>True Crime</item>
+        <item>Thriller</item>
+        <item>Travel</item>
+        <item>Others</item>
+    </array>
+    <array name="chattogram">
+        <item>Bandarban</item>
+        <item>Brahmanbaria</item>
+        <item>Chandpur</item>
+        <item>Chattogram</item>
+        <item>Cumilla</item>
+        <item>Cox&apos;s Bazar</item>
+        <item>Feni</item>
+        <item>Khagrachhari</item>
+        <item>Lakshmipur</item>
+        <item>Noakhali</item>
+        <item>Rangamati</item>
+    </array>
+    <array name="dhaka">
+        <item>Dhaka</item>
+        <item>Faridpur</item>
+        <item>Gazipur</item>
+        <item>Gopalganj</item>
+        <item>Kishoreganj</item>
+        <item>Madaripur</item>
+        <item>Manikganj</item>
+        <item>Munshiganj</item>
+        <item>Narayanganj</item>
+        <item>Narsingdi</item>
+        <item>Rajbari</item>
+        <item>Shariatpur</item>
+        <item>Tangail</item>
+    </array>
+    <array name="divisions">
+        <item>Barisal</item>
+        <item>Chattogram</item>
+        <item>Dhaka</item>
+        <item>Khulna</item>
+        <item>Mymensingh</item>
+        <item>Rajshahi</item>
+        <item>Rangpur</item>
+        <item>Sylhet</item>
+    </array>
+    <array name="khulna">
+        <item>Bagerhat</item>
+        <item>Chuadanga</item>
+        <item>Jashore</item>
+        <item>Jhenaidah</item>
+        <item>Khulna</item>
+        <item>Kushtia</item>
+        <item>Magura</item>
+        <item>Meherpur</item>
+        <item>Narail</item>
+        <item>Satkhira</item>
+    </array>
+    <array name="mymensingh">
+        <item>Jamalpur</item>
+        <item>Mymensingh</item>
+        <item>Netrokona</item>
+        <item>Sherpur</item>
+    </array>
+    <array name="rajshahi">
+        <item>Bogura</item>
+        <item>Joypurhat</item>
+        <item>Naogaon</item>
+        <item>Natore</item>
+        <item>Chapainawabganj</item>
+        <item>Pabna</item>
+        <item>Rajshahi</item>
+        <item>Sirajganj</item>
+    </array>
+    <array name="rangpur">
+        <item>Dinajpur</item>
+        <item>Gaibandha</item>
+        <item>Kurigram</item>
+        <item>Lalmonirhat</item>
+        <item>Nilphamari</item>
+        <item>Panchagarh</item>
+        <item>Rangpur</item>
+        <item>Thakurgaon</item>
+    </array>
+    <array name="sylhet">
+        <item>Habiganj</item>
+        <item>Moulvibazar</item>
+        <item>Sunamganj</item>
+        <item>Sylhet</item>
+    </array>
+</resources>

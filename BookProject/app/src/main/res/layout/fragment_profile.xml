@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/userInformation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/colorWhite"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp">
+
+
+                <ImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/profile_user_icon"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.7"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="0.3"
+                    android:layout_gravity="center"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:id="@+id/userName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name"
+                        android:textColor="#6C6C6C"
+                        android:layout_gravity="left"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/userNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="phone number"
+                        android:textColor="#6C6C6C"
+                        android:layout_gravity="left"
+                        android:textSize="18sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/userEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Email"
+                        android:textColor="#6C6C6C"
+                        android:layout_gravity="left"
+                        android:textSize="18sp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/userAddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Address"
+                        android:textColor="#6C6C6C"
+                        android:layout_gravity="left"
+                        android:textSize="18sp"
+                        android:textStyle="normal" />
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/update_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="edit profile"
+                android:layout_gravity="center"
+                android:background="@drawable/edit_profile_botton_bg"
+                android:textColor="#6C6C6C"
+                android:textSize="18sp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textAllCaps="false"
+                android:drawableRight="@drawable/edit_black"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/userInformation"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabBackground="@color/colorMain"
+                app:tabGravity="fill"
+                app:tabTextColor="#CACACA"
+                android:background="@color/colorMain"
+                android:elevation="4dp"
+                app:tabIndicatorColor="@color/colorBlack"
+                app:tabIndicatorHeight="5dp"
+                app:tabMode="fixed"
+                app:tabSelectedTextColor="@color/colorWhite" />
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/tabLayout"
+                tools:layout_editor_absoluteX="8dp"
+                tools:ignore="MissingConstraints" />
+
+
+<!--            <androidx.recyclerview.widget.RecyclerView-->
+<!--                android:id="@+id/my_post_recyler_view"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:padding="12dp"/>-->
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

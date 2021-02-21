@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".HomePage"
+    android:background="#75a977">
+
+    <Button
+        android:id="@+id/button_BD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_bd"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textAllCaps="false"
+        android:drawableLeft="@drawable/bangladesh"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <Button
+        android:id="@+id/button_PAK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_pak"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textAllCaps="false"
+        android:drawableLeft="@drawable/pakistan"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <Button
+        android:id="@+id/button_IND"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_ind"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textAllCaps="false"
+        android:drawableLeft="@drawable/india"
+        style="@style/Widget.AppCompat.Button.Colored"/>
+</LinearLayout>
+
+

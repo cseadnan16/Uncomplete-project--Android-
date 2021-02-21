@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/rl" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_36sdp" android:layout_below="@+id/logintxt">
+        <TextView android:textSize="@dimen/_14sdp" android:textStyle="bold" android:textColor="@color/colorBlue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Pay Your Subcription Fee"/>
+        <TextView android:textStyle="bold" android:id="@+id/bkashpay" android:background="@drawable/text_bg2" android:padding="@dimen/_4sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_15sdp" android:text="Bcash Payment" android:drawableLeft="@drawable/ic_bk" android:drawableRight="@drawable/ic_arrow_right"/>
+        <TextView android:textStyle="bold" android:id="@+id/otherspay" android:background="@drawable/text_bg2" android:padding="@dimen/_4sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="Other Payments" android:drawableLeft="@drawable/ic_payment" android:drawableRight="@drawable/ic_arrow_right"/>
+        <Button android:id="@+id/notnow" android:background="@drawable/colormain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/_26sdp" android:text="Not Now"/>
+    </LinearLayout>
+</RelativeLayout>

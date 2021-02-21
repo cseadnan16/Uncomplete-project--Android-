@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/rl" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_36sdp" android:layout_below="@+id/logintxt">
+        <Button android:id="@+id/bsLog" android:background="@drawable/colormain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/_20sdp" android:text="LogIn"/>
+        <Button android:id="@+id/bsReg" android:background="@drawable/colormainreg" android:paddingLeft="@dimen/_6sdp" android:paddingRight="@dimen/_6sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/_20sdp" android:text="Registration"/>
+    </LinearLayout>
+</RelativeLayout>
